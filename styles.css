@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -165,12 +166,7 @@ body {
 .skills__wrapper {
   display: flex;
   flex-direction: row;
-  gap: 120px;
-  justify-content: space-around;
-}
-
-.skills__list li {
-  list-style: none;
+  gap: 20%;
 }
 
 .skills__list li span {
@@ -220,7 +216,7 @@ body {
   font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__company-project-name a {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
@@ -229,6 +225,10 @@ body {
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
+}
+
+.experiences__company-project-responsibilities li span {
+  margin-right: 5px;
 }
 
 .additional-info {
@@ -274,4 +274,28 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.some-fun {
+  justify-content: center;
+  display: flex;
+}
+
+.some-fun__button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  border-color: var(--text-decoration-color);
+  background-color: var(--primary-text-color);
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.some-fun__button:hover {
+  background-color: #035177;
+}
+
+.fire {
+  display: none;
 }
