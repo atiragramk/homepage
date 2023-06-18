@@ -162,6 +162,21 @@ body {
   margin-bottom: 15px;
 }
 
+.skills__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  justify-content: space-around;
+}
+
+.skills__list li {
+  list-style: none;
+}
+
+.skills__list li span {
+  margin-right: 5px;
+}
+
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
